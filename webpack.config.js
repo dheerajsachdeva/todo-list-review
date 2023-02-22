@@ -18,7 +18,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'main.js',
+    filename: '[name].js',
   },
   devServer: {
     static: './dist',
@@ -27,4 +27,5 @@ module.exports = {
     template: './src/index.html',
   })],
   mode: 'development',
+  optimization: {runtimeChunk: 'single'},
 };

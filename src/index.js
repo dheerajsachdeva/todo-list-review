@@ -1,4 +1,4 @@
-import './style.css';
+import './style.css'
 
 const task = [
   {
@@ -21,7 +21,7 @@ const task = [
 
 const list = document.querySelector('.list');
 
-function displayData() {
+
   task.forEach((task) => {
     const listElement = document.createElement('li');
     listElement.classList.add('listElement');
@@ -30,5 +30,5 @@ function displayData() {
     listElement.innerHTML += '<div class = "delete"><img src="https://img.icons8.com/material-rounded/24/null/menu-2.png"/></div>';
     list.appendChild(listElement);
   });
-}
-displayData();
+
+
