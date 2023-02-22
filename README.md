@@ -1,5 +1,5 @@
 <div align="center">
-  <h3><b>Awesome books</b></h3>
+  <h3><b>To Do List</b></h3>
 
 </div>
 # 📗 Table of Contents
@@ -19,8 +19,8 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Awesome books <a name="about-project"></a>
-**Awesome books** A basic website that allows users to add/remove books from a list
+# 📖 Todo List <a name="about-project"></a>
+**Awesome books** A basic website that allows users to add/remove list
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -38,9 +38,9 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **Has functionality to add a book author and title**
-- **Has functionality to add a print saved books**
-- **Has functionality to add a remove a saved book by id**
+- **Has functionality to add list**
+- **Has functionality to edit list**
+- **Has functionality to remove list**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,14 +64,14 @@ Clone this repository to your desired folder:
 
 ```sh
   cd your-desired-folder
-  git clone git@github.com:dheerajsachdeva/awesomeBooksES6.git
+  git clone git@github.com:dheerajsachdeva/to-do-list.git
 ```
 
 ### Usage
 
 To run the project, execute the following command:
 
-- open the repo folder `awesome-books`
+- open the repo folder `to-do list`
 - Rightclick on the index.html file and select open in the browser
 
 ## 👥 Authors <a name="authors"></a>
@@ -109,6 +109,6 @@ I would like to thank [](https://github.com/dheerajsachdeva)
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is not licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
