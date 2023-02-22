@@ -20,8 +20,14 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
   },
+  devServer: {
+    static: './dist',
+  },
   plugins: [new HtmlWebpackPlugin({
     template: './src/index.html',
   })],
   mode: 'development',
+  optimization: {
+    runtimeChunk: 'single',
+  },
 };

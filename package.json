@@ -4,7 +4,7 @@
   "description": "<div align=\"center\">\r   <h3><b>Awesome books</b></h3>",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve",
+    "start": "webpack serve --open",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
