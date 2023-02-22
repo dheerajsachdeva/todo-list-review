@@ -27,5 +27,5 @@ module.exports = {
     template: './src/index.html',
   })],
   mode: 'development',
-  optimization: {runtimeChunk: 'single'},
+  optimization: { runtimeChunk: 'single' },
 };

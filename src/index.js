@@ -1,4 +1,4 @@
-import './style.css'
+import './style.css';
 
 const task = [
   {
@@ -21,14 +21,11 @@ const task = [
 
 const list = document.querySelector('.list');
 
-
-  task.forEach((task) => {
-    const listElement = document.createElement('li');
-    listElement.classList.add('listElement');
-    listElement.innerHTML = '<div class = "checkbox"><input type = "checkbox" class= "taskCompleted"></div>';
-    listElement.innerHTML += `<div class = "listText">${task.description}</div>`;
-    listElement.innerHTML += '<div class = "delete"><img src="https://img.icons8.com/material-rounded/24/null/menu-2.png"/></div>';
-    list.appendChild(listElement);
-  });
-
-
+task.forEach((task) => {
+  const listElement = document.createElement('li');
+  listElement.classList.add('listElement');
+  listElement.innerHTML = '<div class = "checkbox"><input type = "checkbox" class= "taskCompleted"></div>';
+  listElement.innerHTML += `<div class = "listText">${task.description}</div>`;
+  listElement.innerHTML += '<div class = "delete"><img src="https://img.icons8.com/material-rounded/24/null/menu-2.png"/></div>';
+  list.appendChild(listElement);
+});
