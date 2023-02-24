@@ -1,6 +1,6 @@
 // eslint-disable-next-line
 import completeTasks from './completeTasks.js';
-import './style.css'
+import './style.css';
 
 const todoForm = document.querySelector('#todo-form');
 const todoList = document.querySelector('.todos');
