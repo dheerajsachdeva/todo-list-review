@@ -1,3 +1,3 @@
 import './crud.js';
-import './completeTasks.js';
+import './interactive.js';
 import './style.css';
