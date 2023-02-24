@@ -5,15 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>To Do List</title>
-    <script src="./index.js" defer></script>
+    <title>Todo List</title>
+    <script type = "module" src="./index.js" defer></script>
     <link rel="stylesheet" href="style.css">
 <script defer src="runtime.js"></script><script defer src="main.js"></script></head>
 
 <body>
-    <div class="container">
-        <div class="header">
+    <div class="header">
+        <div class="container">
             <div class="heading">
                 <h1>Today's To Do</h1>
             </div>
@@ -21,11 +20,18 @@
                 <img src="https://img.icons8.com/material-sharp/24/null/update-left-rotation.png" />
             </div>
         </div>
-        <div class="addItem">
-            <input type="text" id="input" placeholder="Add to your List...">
+        <div class="form">
+            <form action="" id="todo-form">
+                <input type="text" id="input" placeholder="Add to your List..." autofocus>
+                <!-- <button type="submit">Add</button> -->
+            </form>
         </div>
-        <ul class="list"></ul>
-        <input type="button" class="button" value="Clear all Completed">
+        <div id="main-content">
+            <ul class="todos">
+                
+            </ul>
+            <input type="button" id="completed-tasks" class="button" value="Clear all Completed">
+        </div>
     </div>
 </body>
 

@@ -11,7 +11,7 @@ body {
   background-color: rgb(236, 236, 236);
 }
 
-.container {
+.header {
   border: 1px solid rgb(224, 217, 217);
   width: 60%;
   margin-top: 50px;
@@ -20,7 +20,7 @@ body {
   box-shadow: 2px 2px 2px 1px rgba(107, 104, 104, 0.2), -2px -2px 2px 1px rgba(107, 104, 104, 0.2);
 }
 
-.header {
+.container {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -49,18 +49,25 @@ input:focus {
   outline: none;
 }
 
-.listElement {
+.item {
   list-style: none;
   display: flex;
   margin-top: 10px;
   border-bottom: 1px solid var(--grey);
   padding-left: 10%;
-  justify-content: flex-start;
+  justify-content: space-between;
   width: 90%;
+  border: none;
 }
 
-.listText {
-  width: 80%;
+.todos li.complete {
+  text-decoration: line-through;
+}
+
+.text {
+  width: 75%;
+  display: flex;
+  margin-left: 10px;
 }
 
 .button {
@@ -70,10 +77,6 @@ input:focus {
   height: 30px;
 }
 
-.checkbox {
-  width: 10%;
-}
-
-.delete {
-  width: 10%;
+.list {
+  display: flex;
 }
