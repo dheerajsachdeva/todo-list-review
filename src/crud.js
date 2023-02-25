@@ -1,5 +1,5 @@
 // eslint-disable-next-line
-import completeTasks from './completeTasks.js';
+import completeTasks from './interactive.js';
 
 export const tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
