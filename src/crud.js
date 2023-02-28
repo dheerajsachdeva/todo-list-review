@@ -62,14 +62,14 @@ const removeTask = ((taskid) => {
   window.location.reload();
 });
 
-const editTask = ((taskid, el) => {
+const editTask = ((taskid, element) => {
   // eslint-disable-next-line
     const task = tasks.find((task) => parseInt(taskid) === task.id);
-  if (el.hasAttribute('contenteditable')) {
-    task.description = el.textContent;
+  if (element.hasAttribute('contenteditable')) {
+    task.description = element.textContent;
   } else {
-    const span = el.nextElementSibling;
-    const parent = el.closest('li');
+    const span = element.nextElementSibling;
+    const parent = element.closest('li');
     task.completed = !task.completed;
     if (task.completed) {
       span.removeAttribute('contenteditable');
